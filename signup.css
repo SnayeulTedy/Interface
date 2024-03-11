@@ -1,0 +1,92 @@
+body
+{
+    background-image: url(bg/sign.jpg);
+    font-family: 'Inter'; 
+    
+}
+
+
+.login-container
+{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.705);
+
+}
+
+.login-form
+{
+    background-color: transparent;
+    margin: auto;
+    margin-top: 50px;
+    max-width: 450px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.219);
+}
+
+.login-form h2
+{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: auto;
+}
+
+h4
+{
+    margin-top: -3px;
+    margin-left: 160px;
+    color: white;
+
+}
+
+label
+{
+    display: block;
+    font-size: 18px;
+    margin-bottom: 8px;
+    margin-left: 8px;
+    margin-top: 8px;
+    color: white;
+    position: relative;
+}
+
+input{
+    background-color: rgba(255, 255, 255, 0.219);
+    width: 85%;
+    border-radius: 8px;
+    margin-left: 10px;
+    padding: 8px;
+}
+
+p
+{
+    color: white;
+    text-align: center;
+   
+}
+
+p a
+{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+button
+{
+    width: 30%;
+    height: 35px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-left: 160px;
+    
+    
+}

@@ -1,0 +1,90 @@
+body{
+    background-image: url(bg/feuille.jpg);
+    color: white;
+    font-family: 'inter' ,Arial, Helvetica, sans-serif;
+}
+
+.login-form
+{
+    padding: 4px;
+    max-width: 420px;
+    height: 370px;
+    margin-left: 450px;
+    margin-top: 120px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.295);
+}
+
+.image img
+{
+    width: 25%;
+    margin-top: 25px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+.sign h2
+{
+    margin-left: 200px;
+    font-size: 40px;
+    margin-top: -120px;
+
+}
+
+h5
+{
+    margin-left: 200px;
+    margin-top: -30px;
+    
+}
+
+label
+{
+    text-align: left;
+    font-weight: bold;
+    margin-left: 40px;
+    margin-bottom: 15px;
+    padding: 4px;
+    
+}
+
+input
+{
+    border-radius: 4px;
+    margin-left: 40px;
+    width: 300px;
+    height: 0.79cm;
+    background-color: rgba(255, 255, 255, 0.295);
+    margin-bottom: 15px;
+    border-top: none ;
+    border-left: none;
+    border-right: none;
+    border-bottom-color: white;
+    
+}
+
+button
+{
+    border-radius: 6px;
+    color: black;
+    border: none;
+    background-color: white;
+    width: 115px;
+    height: 30px;
+    margin-top: 15px;
+    margin-left: 155px;
+    font-size: large;
+}
+
+p
+{
+    color: white;
+    text-align: center;
+}
+
+p a
+{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
