@@ -1,0 +1,101 @@
+<!DOCTYPE html PUBLIC"-//W3C//DTD  XHTML 1.0  Strict//EN"
+"http://www.w3.org/TR/xhtmll/DTD/xhtmll-strict.dtd">
+<html xmlns="http:"//www.w3.org/1999/xhtml" xml:lang="fr">
+<head>
+     <title>LES FORMULAIRES</title>
+     <meta http-equiv="content-type" content="text/html; charset=iso-8859-1"/>
+</head>
+<body bgcolor="#c0c0c0">
+    <p>PERSONAL INFORMATIONS</p>
+    <form method="post" action="listes.html">
+        <P>
+         <label for="nom">Votre Nom</label>:
+         <input type="text" name="nom" id="nom" value="ENTREZ VOTRE NOM" size="33" maxlength="10"/><br>
+         <label for="Prenom"> Votre Prenom</label>:
+         <input type="text" name="Prenom" id="Prenom" value="ENTREZ VOTRE PRENOM" size="30" maxlength="10"/><br>
+         <label for="Date de naissance">Date de naissance</label>:
+         <input type="date" name="Date de naissance" id="Date de naissance" value="DATE DE NAISS" size="30"/><br>
+         <label for="Nationalite">Votre Nationalite</label>:
+         <input type="text" name="Nationalite" id="Nationalite" value="CAMEROUNAIS" size="27"/>
+         
+        </P>
+        <P>
+            <label for="ameliorer">comment pensez vous que je pouvais ameliorer mon site?</label><br/>
+            <textarea name="ameliorer" id="ameliorer" cols="50" rows="10"></textarea>
+        </P>
+        <p>
+            <label for="pseudo">Votre pseudo:</label>
+            <input type="text" name="pseudo" id="pseudo" value="jojo"/><br/>
+            <label for="pass">Mot de passe:</label>
+            <input type="password" name="mot de passe" id="mot de passe" value="****"/>
+        </p>
+        <p>
+            cochez les aliments que vous aimez manger:<br/>
+            <input type="checkbox" name="frites" id="frites" checked="checked"/>
+            <label for="frites">Frites</label><br/>
+            <input type="checkbox" name="riz" id="riz"/>
+            <label for="riz">Riz</label><br/>
+            <input type="checkbox" name="epinards" id="epinards">
+            <label for="epinards">Epinards</label>
+        </p>
+        <p>
+            Veuillez indiquer la tranche d'age dans laquelle vous vous situez:<br/>
+            <input type="radio" name="age" value="moins15" id="moins15"/>
+            <label for="moins15">moins de 15ans</label><br/>
+            <input type="radio" name="age" value="medium15-25" id="medium15-25"/>
+            <label for="medium15-25">15-25ans</label><br/>
+            <input type="radio" name="age" value="medium26-30"/>
+            <label for="medium26-30">26-30ans</label><br/>
+            <input type="radio" name="age" value="plus40" id="plus40"/>
+            <label for="plus40">Encore plus vieux</label>
+        </p>
+        <p>
+            sur quel continent habitez-vous?<br/>
+            <input type="radio" name="continent" value="europe" id="europe"/>
+            <label for="europe">Europe</label><br/>
+            <input type="radio" name="continent" value="asie" id="asie"/>
+            <label for="asie">Asie</label><br/>
+            <input type="radio" name="continent" value="afrique" id="afrique"/>
+            <label for="afrique">Afrique</label><br/>
+        </p>
+        <p>
+            <label for="pays">Dans quel pays habitez-vous?</label><br/>
+            <select name="pays" id="pays">
+                <option value="france">France</option>
+                <option value="cameroun">Cameroun</option>
+                <option value="canada">Canada</option>
+                <option value="clina">Chine</option>
+                <option value="japon">Japon</option>
+                <option value="suisse"selected="selected">Suisse</option>
+                <option value="italie">Italie</option>
+                <option value="indonesie">Indonesie</option>
+                <option value="maroc">Maroc</option>
+            </select>
+        </p>
+        <p>
+            <label for="pays">Dans quel pays habitez-vous?</label><br/>
+            <select name="pays" id="pays">
+                <optgroup label="Europe">
+                <option value="france">France</option>
+                <option value="italie">Italie</option>
+                </optgroup>
+                <optgroup label="Amerique">
+                <option value="canada">Canada</option>
+                <option value="etat-unis">Etat-unis</option>
+                </optgroup>
+                <optgroup label="Asie">
+                <option value="china">Chine</option>
+                <option value="japon">Japon</option>
+                <option value="indonesie">Indonesie</option>
+                </optgroup>
+                <optgroup label="Afrique">
+                <option value="cameroun">Cameroun</option>
+                <option value="gabon">Gabon</option>
+                </optgroup>
+            </select>  
+        </p>
+        <input type="submit" name="nom" value="Envoyer"> 
+        <input type="reset" name="nom" value="Annuler"> 
+    </form>
+</body>
+</html>
